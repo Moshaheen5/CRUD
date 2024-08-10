@@ -1,0 +1,21 @@
+body{
+    font-family: "prompt";
+}
+.form-control:focus , .form-select:focus{
+    box-shadow: none;
+    border-color: darkcyan !important;
+}
+.fa-trash-can:hover{
+    animation: fa-shake 2s 1 linear; 
+}
+.imgg {
+    overflow: hidden;
+    height: 150px;  
+}
+.form-control.is-invalid , .form-select.is-invalid {
+    box-shadow: none !important;
+    border-color: red !important;
+}
+.form-control.is-valid , .form-select.is-valid{
+    box-shadow: none !important;
+}
